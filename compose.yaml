@@ -1,0 +1,8 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=uaproject'
+      - 'MYSQL_USER=user'
+    ports:
+      - '3306'
